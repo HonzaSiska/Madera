@@ -1,4 +1,7 @@
+//-----//
+
 let inventory = [];
+
 
 let form = document.querySelector('.form')
 
