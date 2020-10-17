@@ -1,0 +1,305 @@
+* {
+	padding: 0;
+	margin: 0;
+}
+body {
+	padding: 0;
+	margin: 0;
+	font-family: arial;
+
+
+}
+h1 {
+	padding: 10px;
+	text-align:center;
+}
+
+
+nav {
+	font-family: arial;
+	text-align: center;
+	width:100%;
+
+}
+nav ul  {
+	list-style: none;
+
+}
+nav ul li {
+	width: 22%;
+	margin:-3px;
+	display: inline-block;
+	padding: 10px;
+	background-color: black;
+	color: lightgray;
+	cursor: pointer;
+	border: solid 1px lightgray;
+	text-align: center;
+	transition: all 0.5s;
+
+}
+nav ul li:hover {
+
+	background-color: grey;
+	color: lightgray;
+	cursor: pointer;
+
+}
+.selected {
+	background-color: grey;
+	color: lightgray;
+
+}
+
+
+#errorBundle {
+	display: none;
+	color: red;
+
+}
+#errorWood {
+	display: none;
+	color: red;
+
+}
+#errorWidth {
+	display: none;
+	color: red;
+
+}
+#errorHeight {
+	display: none;
+	color: red;
+
+}
+#error {
+	color: red;
+	width:auto;
+	background-color: #fabfb6;
+	text-align: center;
+}
+#error:hover {
+	color:gray;
+	cursor: pointer;
+}
+table {
+	border-collapse: collapse;
+	margin-bottom: 30px;
+
+
+}
+
+
+
+td {
+	padding:20px;
+	border: 1px solid black;
+}
+thead td {
+	padding:20px;
+	border: 1px solid black;
+	background-color: #b1c1f2;
+	font-weight: bold;
+
+
+}
+.firstCell {
+	background-color: #3d3d40;
+	color: lightgrey;
+	border-bottom: grey 1px solid;
+	}
+	.secondCell {
+		background-color: #d9f7fa;
+		font-weight: bold;
+	}
+.form {
+	text-align: left;
+	width: 100%;
+	margin-top: 3px;
+
+	background-color: #b1c1f2;
+	padding: 20px 100px;
+
+	transition: all 1s;
+	
+
+
+}
+.form input {
+	padding:7px;
+	width:50px;
+	display:inline-block;
+	margin: 0;
+}
+label {
+	display:inline-block;
+}
+button {
+	text-align: center;
+
+}
+input {
+	border-radius: 4px;
+}
+select {
+	border-radius: 4px;
+	padding:7px;
+}
+
+#listOfBundles {
+	display: block;
+	margin-top: 30px;
+}
+#wood {
+   width: 150px;
+}
+
+#update{
+
+	transition: all 1s;
+	display:none;
+	transition: all 1s;
+
+	padding: 7px;
+	font-weight: bold;
+	margin-top: 20px;
+	margin-left:0px;
+	text-align: center;
+	width: fit-content;
+
+}
+#startBulto {
+	display:inline-flex;
+	transition: all 1s;
+
+	padding: 7px;
+	font-weight: bold;
+	margin-top: 20px;
+	margin-left:0px;
+	text-align: center;
+	width: fit-content;
+
+
+
+}
+#woodInBtn, #woodOutBtn {
+	display:none;
+	transition: all 1s;
+
+	padding: 7px;
+	font-weight: bold;
+	margin-top: 20px;
+	margin-left:0px;
+	text-align: center;
+	width: fit-content;
+}
+
+#width {
+	display:block;
+	transition: all 1s;
+	display: none;
+}
+#qt {
+	display:block;
+	transition: all 1s;
+	display: none;
+}
+#labelWidth {
+
+	transition: all 1s;
+	display: none;
+
+}
+#labelQt {
+
+	transition: all 1s;
+	display: none;
+
+}
+#labelBulto {
+
+	transition: all 1s;
+
+}
+#labelHeight {
+
+	transition: all 1s;
+
+}
+#labelWood {
+
+	transition: all 1s;
+
+}
+#labelLength {
+
+	transition: all 1s;
+
+}
+.tableBundles {
+	display: block;
+	margin-top: 20px;
+}
+
+
+
+
+.woodTransactions {
+	display: block;
+	width: 100%;
+	margin-top: 30px;
+
+}
+.woodTransactions table td{
+	padding:5px 20px;
+    font-size: 12px;
+}
+.woodTransactions table thead td{
+	background-color:lightgray;
+}
+#woodInventory {
+	width: 100%;
+}
+
+.woodTransHeader {
+	padding: 20px;
+    width: 100%;
+
+}
+#entregasPlaceholder {
+	display: block;
+
+}
+.searchWood {
+	margin: 20px;	
+	margin-bottom: 0;
+	height: 30px;
+	width: 300px;
+
+}
+.searchWoodBTN{
+	height: 30px;
+	padding: 0 10px;
+}
+
+
+.toolTip {
+	display: block;
+	margin: 20px;
+	margin-top: 0;
+	font-size: 12px;
+	color:grey;
+}
+.showAll {
+	height: 30px;
+	padding: 0 10px;
+	margin-left: 10px;
+}
+.emptyCell {
+	border: none;
+}
+.sums {
+	
+	background-color: lightgrey;
+	font-weight: bold;
+}

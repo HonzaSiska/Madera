@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+	<head>
+		<meta charset="utf-8">
+		<title>madera</title>
+
+		<link rel="stylesheet" href="madera.css">
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+
+	</head>
+	<body>
+		<header>
+			<h1>WOOD INVENTORY</h1>
+			<nav class="mainNav">
+				<ul>
+					<li id="newBundle" class="newBundle selected">Bundles</li>
+					<li id="updateBundle" class="updateBundle">Update Bundle</li>
+					<li id="woodIn" class="woodIn">Wood IN</li>
+					<li id="woodOut" class="woodOut">Wood OUT</li>
+				</ul>
+
+			</nav>
+			<form class="form" action="" method="post">
+
+				<label id="labelBulto" for="bundle">Bundle</label>
+				<input id="bundle" type="text" name="bundle" >
+				<label id="labelWood" for="wood">Wood</label>
+				<input id="wood" type="text" name="wood" >
+				<label id="labelLength"for="length">Length</label>
+				<input id="length" type="text" name="length" >
+				<label id="labelHeight" for="height">Height</label>
+				<input id="height" type="text" name="height" >
+				<label id="labelWidth" for="width">Width</label>
+				<select id="width" type="text" name="width" >
+					<option value="5">5</option>
+					<option value="6">6</option>
+					<option value="7">7</option>
+					<option value="8">8</option>
+					<option value="9">9</option>
+					<option value="10">10</option>
+
+				</select>
+				<label id="labelQt" for="qt">Qt</label>
+				<input id="qt" type="text" name="qt" >
+
+				<!--6":   <input id="six" type="text" name="six" class="widths">
+				7":   <input id="seven" type="text" name="seven" class="widths">
+				8":   <input id="eight" type="text" name="eight" class="widths">
+				9":   <input id="nine" type="text" name="nine" class="widths">
+				9":   <input id="nine" type="text" name="nine" class="widths">
+				10":   <input id="nine" type="text" name="nine" class="widths">
+				<br /><h2 id="errorWidth"></h2>-->
+				<button id = "startBulto" type="button" name="button" onclick="createNewBulto()">Add Bundle</button>
+				<button id = "update" type="button" name="button">Update Bundle</button>
+				<button id = "woodInBtn" type="button" name="button">Wood in</button>
+				<button id = "woodOutBtn" type="button" name="button">Wood Out</button>
+
+			</form>
+			<h2 id="error"></h2>
+		</header>
+		<div id="listOfBundles" class="">
+
+		</div>
+
+
+
+		<div id = "entregasPlaceholder" class="entregasPlaceholder">
+
+		</div>
+
+
+		<div id="salidasPlaceholder" class="">
+
+		</div>
+
+		<script type="text/javascript" src="madera.js"></script>
+
+
+	</body>
+</html>
